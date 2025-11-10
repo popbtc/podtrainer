@@ -11,6 +11,7 @@ import '../presentation/settings_main_screen/settings_main_screen.dart';
 import '../presentation/home_dashboard_screen/home_dashboard_screen.dart';
 import '../presentation/player_management_screen/player_management_screen.dart';
 import '../presentation/add_player_screen/add_player_screen.dart';
+import '../presentation/permission_request_screen/permission_request_screen.dart';
 
 class AppRoutes {
   // TODO: Add your routes here
@@ -27,6 +28,8 @@ class AppRoutes {
   static const String homeDashboard = '/home-dashboard-screen';
   static const String playerManagement = '/player-management-screen';
   static const String addPlayer = '/add-player-screen';
+  static const String permissionRequestScreen = '/permission-request';
+  static const String podsManagementScreen = '/pods-management';
 
   static Map<String, WidgetBuilder> routes = {
     initial: (context) => const HomeDashboardScreen(),
@@ -42,6 +45,7 @@ class AppRoutes {
     homeDashboard: (context) => const HomeDashboardScreen(),
     playerManagement: (context) => const PlayerManagementScreen(),
     addPlayer: (context) => const AddPlayerScreen(),
+    permissionRequestScreen: (context) => const PermissionRequestScreen(),
     // TODO: Add your other routes here
   };
 }

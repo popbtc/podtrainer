@@ -9,7 +9,7 @@ environment:
 dependencies:
   flutter:       # CRITICAL: Required for every Flutter project - DO NOT REMOVE
     sdk: flutter # CRITICAL: Required for every Flutter project - DO NOT REMOVE
-  
+
   # CRITICAL: Core UI and responsive design - DO NOT REMOVE OR MODIFY
   sizer: ^2.0.15              # Required for responsive design system
   flutter_svg: ^2.0.9        # Required for SVG icon support
@@ -29,6 +29,7 @@ dependencies:
   video_player: ^2.10.0
 
   universal_html: ^2.2.4
+  flutter_reactive_ble: ^5.4.0
 dev_dependencies:
   flutter_test:    # CRITICAL: Required for Flutter project testing - DO NOT REMOVE
     sdk: flutter   # CRITICAL: Required for Flutter project testing - DO NOT REMOVE
